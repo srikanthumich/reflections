@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+-It made it easier to find what was different from what was existing (and working).
+-It helped in finding the error without having to go through each and every line of the new file.
+-If you feel that the old version looks better than the new version, you can always go back.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+-It helps you have access to previous versions that are working. 
+-In the event of a failure/loss of the present version, all is not lost. You'll have something to work with.
+-It helps in debugging, without having to go through each and every line of the code.
+-It helps in making modifications to the older versions easier.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+pros:
+-you have control over when to have a version saved instead of cluttering the system with too many autosaves.
+-you can assign commits based on logical changes instead of plain autosave.
+-you can directly go to a previous version without having to search for which auto-saved version to look for.
+
+cons:
+-If you forget to save, you might lose the code.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+-because they don't require multiple files to function 
+
+How can you use the commands git log and git diff to view the history of files?
+-'git log' to view the history of commits
+-'git diff' to see the changes made in the file between two commits
+
+How might using version control make you more confident to make changes that could break something?
+-we can always restore to a previous version that's working and known
+-we have the changes tracked for each commit, so we can add or remove any feature/functionality without 
+ fear of removing any existing ones
+
+Now that you have your workspace set up, what do you want to try using Git for?
+-try on source code from from github or other web pages
+
+
+
+
+
+
