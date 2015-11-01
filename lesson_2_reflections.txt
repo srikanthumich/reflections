@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 -a snapshot of all files is saved, .git is created 
 -so that we can start tracking commits
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+-It helps us make a logical commit i.e, decide which files to be added to a particular commit
+-It gives more control of what we choose to add in a commit
